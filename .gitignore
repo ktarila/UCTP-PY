@@ -1,0 +1,12 @@
+**/ml-uctp-py/__pycache__
+**/Solution/*
+**/ML-Training-Data/*.data
+**/Checkpoints/*.cph
+**/Checkpoints/*.cps
+**/ml-uctp-py/*.pyc
+/ml-uctp-py.sublime-project
+/ml-uctp-py.sublime-workspace
+
+# exception to the rule
+!Solution/ITC2007-validator.cc
+!Solution/testvalidation.txt

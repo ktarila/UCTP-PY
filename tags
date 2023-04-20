@@ -1,0 +1,249 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+AddMember	Solution/ITC2007-validator.cc	/^  void AddMember(unsigned e) { members.push_back(e); }$/;"	f	class:Curriculum
+Available	Solution/ITC2007-validator.cc	/^  bool Available(unsigned c, unsigned p) const { return availability[c][p]; } $/;"	f	class:Faculty
+CHAINMOVE	ml-uctp-py/config.py	/^CHAINMOVE = False$/;"	v
+CLF	ml-uctp-py/config.py	/^CLF = None  # save global machine learning classifier here$/;"	v
+COMPACTNESS_COST	Solution/ITC2007-validator.cc	/^  unsigned COMPACTNESS_COST;$/;"	m	class:Validator	file:
+CURRENTGEN	ml-uctp-py/config.py	/^CURRENTGEN = 0$/;"	v
+CXPB	ml-uctp-py/create_timetable.py	/^CXPB = 0.7$/;"	v
+Capacity	Solution/ITC2007-validator.cc	/^  unsigned Capacity() const { return capacity; }$/;"	f	class:Room
+Conflict	Solution/ITC2007-validator.cc	/^  bool Conflict(unsigned c1, unsigned c2) const { return conflict[c1][c2]; } $/;"	f	class:Faculty
+CostsOnAvailability	Solution/ITC2007-validator.cc	/^unsigned Validator::CostsOnAvailability() const	       $/;"	f	class:Validator
+CostsOnConflicts	Solution/ITC2007-validator.cc	/^unsigned Validator::CostsOnConflicts() const$/;"	f	class:Validator
+CostsOnCurriculumCompactness	Solution/ITC2007-validator.cc	/^unsigned Validator::CostsOnCurriculumCompactness() const$/;"	f	class:Validator
+CostsOnDoubleLectures	Solution/ITC2007-validator.cc	/^unsigned Validator::CostsOnDoubleLectures() const$/;"	f	class:Validator
+CostsOnIsolatedLectures	Solution/ITC2007-validator.cc	/^unsigned Validator::CostsOnIsolatedLectures() const$/;"	f	class:Validator
+CostsOnLectures	Solution/ITC2007-validator.cc	/^unsigned Validator::CostsOnLectures() const$/;"	f	class:Validator
+CostsOnMinWorkingDays	Solution/ITC2007-validator.cc	/^unsigned Validator::CostsOnMinWorkingDays() const$/;"	f	class:Validator
+CostsOnRoomCapacity	Solution/ITC2007-validator.cc	/^unsigned Validator::CostsOnRoomCapacity() const$/;"	f	class:Validator
+CostsOnRoomConstraints	Solution/ITC2007-validator.cc	/^unsigned Validator::CostsOnRoomConstraints() const$/;"	f	class:Validator
+CostsOnRoomOccupation	Solution/ITC2007-validator.cc	/^unsigned Validator::CostsOnRoomOccupation() const$/;"	f	class:Validator
+CostsOnRoomStability	Solution/ITC2007-validator.cc	/^unsigned Validator::CostsOnRoomStability() const$/;"	f	class:Validator
+CostsOnStudentLoad	Solution/ITC2007-validator.cc	/^unsigned Validator::CostsOnStudentLoad() const$/;"	f	class:Validator
+CostsOnTravelDistance	Solution/ITC2007-validator.cc	/^unsigned Validator::CostsOnTravelDistance() const$/;"	f	class:Validator
+Course	Solution/ITC2007-validator.cc	/^class Course$/;"	c	file:
+Course	ml-uctp-py/ectt_classes.py	/^class Course:$/;"	c
+CourseDailyLectures	Solution/ITC2007-validator.cc	/^  unsigned CourseDailyLectures(unsigned i, unsigned j) const { return course_daily_lectures[i][j]; }$/;"	f	class:Timetable
+CourseIndex	Solution/ITC2007-validator.cc	/^int Faculty::CourseIndex(const std::string& name) const$/;"	f	class:Faculty
+CourseVector	Solution/ITC2007-validator.cc	/^  const Course& CourseVector(int i) const { return course_vect[i]; }$/;"	f	class:Faculty
+Courses	Solution/ITC2007-validator.cc	/^  unsigned Courses() const { return courses; }$/;"	f	class:Faculty
+Curricula	Solution/ITC2007-validator.cc	/^  unsigned Curricula() const { return curricula; }$/;"	f	class:Faculty
+Curricula	ml-uctp-py/ectt_classes.py	/^class Curricula:$/;"	c
+CurriculaVector	Solution/ITC2007-validator.cc	/^  const Curriculum& CurriculaVector(int i) const { return curricula_vect[i]; }$/;"	f	class:Faculty
+Curriculum	Solution/ITC2007-validator.cc	/^class Curriculum $/;"	c	file:
+CurriculumDailyLectures	Solution/ITC2007-validator.cc	/^  unsigned CurriculumDailyLectures(unsigned i, unsigned j) const { return curriculum_daily_lectures[i][j]; }$/;"	f	class:Timetable
+CurriculumDailyWindows	Solution/ITC2007-validator.cc	/^unsigned Timetable::CurriculumDailyWindows(unsigned g, unsigned d) const$/;"	f	class:Timetable
+CurriculumIndex	Solution/ITC2007-validator.cc	/^int Faculty::CurriculumIndex(const std::string& name) const$/;"	f	class:Faculty
+CurriculumMember	Solution/ITC2007-validator.cc	/^bool Faculty::CurriculumMember(unsigned c, unsigned g) const$/;"	f	class:Faculty
+CurriculumPeriodLectures	Solution/ITC2007-validator.cc	/^  unsigned CurriculumPeriodLectures(unsigned i, unsigned j) const { return curriculum_period_lectures[i][j]; }$/;"	f	class:Timetable
+CurriculumTravelCost	Solution/ITC2007-validator.cc	/^unsigned Timetable::CurriculumTravelCost(unsigned g, unsigned p) const$/;"	f	class:Timetable
+DATA	ml-uctp-py/config.py	/^DATA = []$/;"	v
+DOUBLE_LECTURES_COST	Solution/ITC2007-validator.cc	/^  unsigned DOUBLE_LECTURES_COST;$/;"	m	class:Validator	file:
+DailyDoubleLecturesCost	Solution/ITC2007-validator.cc	/^unsigned Timetable::DailyDoubleLecturesCost(unsigned c, unsigned d) const$/;"	f	class:Timetable
+Days	Solution/ITC2007-validator.cc	/^  unsigned Days() const { return periods\/periods_per_day; }$/;"	f	class:Faculty
+DoubleLectures	Solution/ITC2007-validator.cc	/^  bool DoubleLectures() const { return double_lectures; }$/;"	f	class:Course
+Event	ml-uctp-py/ectt_classes.py	/^class Event:$/;"	c
+FNAME	ml-uctp-py/config.py	/^FNAME = None$/;"	v
+FREQ	ml-uctp-py/create_timetable.py	/^FREQ = 50  # save checkpoint ever 50 generations$/;"	v
+Faculty	Solution/ITC2007-validator.cc	/^Faculty::Faculty(const std::string& file_name)$/;"	f	class:Faculty
+Faculty	Solution/ITC2007-validator.cc	/^class Faculty$/;"	c	file:
+Header	ml-uctp-py/ectt_classes.py	/^class Header:$/;"	c
+ISOLATED_LECTURES_COST	Solution/ITC2007-validator.cc	/^  unsigned ISOLATED_LECTURES_COST;$/;"	m	class:Validator	file:
+InsertUsedRoom	Solution/ITC2007-validator.cc	/^  void InsertUsedRoom(unsigned i, unsigned j) { used_rooms[i].push_back(j); }$/;"	f	class:Timetable
+LAMBDA	ml-uctp-py/create_timetable.py	/^LAMBDA = 150$/;"	v
+LECTURELIST	ml-uctp-py/config.py	/^LECTURELIST = []$/;"	v
+Lectures	Solution/ITC2007-validator.cc	/^  unsigned Lectures() const { return lectures; }$/;"	f	class:Course
+Location	Solution/ITC2007-validator.cc	/^  unsigned Location() const { return location; }$/;"	f	class:Room
+MAXGENNOINPROVE	ml-uctp-py/create_timetable.py	/^MAXGENNOINPROVE = 20$/;"	v
+MIN_WORKING_DAYS_COST	Solution/ITC2007-validator.cc	/^  unsigned MIN_WORKING_DAYS_COST;$/;"	m	class:Validator	file:
+MLTYPE	ml-uctp-py/config.py	/^MLTYPE = None  # set machine learning type to regressing or classification$/;"	v
+MU	ml-uctp-py/create_timetable.py	/^MU = 400$/;"	v
+MUTPB	ml-uctp-py/create_timetable.py	/^MUTPB = 0.2$/;"	v
+MaxLectures	Solution/ITC2007-validator.cc	/^  unsigned MaxLectures() const { return max_lectures; }$/;"	f	class:Faculty
+MinLectures	Solution/ITC2007-validator.cc	/^  unsigned MinLectures() const { return min_lectures; }$/;"	f	class:Faculty
+MinWorkingDays	Solution/ITC2007-validator.cc	/^  unsigned MinWorkingDays() const { return min_working_days; }$/;"	f	class:Course
+NGEN	ml-uctp-py/create_timetable.py	/^NGEN = 10000$/;"	v
+Name	Solution/ITC2007-validator.cc	/^  const std::string& Name() const { return name; }$/;"	f	class:Course
+Name	Solution/ITC2007-validator.cc	/^  const std::string& Name() const { return name; }$/;"	f	class:Curriculum
+Name	Solution/ITC2007-validator.cc	/^  const std::string& Name() const { return name; }$/;"	f	class:Faculty
+Name	Solution/ITC2007-validator.cc	/^  const std::string& Name() const { return name; }$/;"	f	class:Room
+Periods	Solution/ITC2007-validator.cc	/^  unsigned Periods() const { return periods; }$/;"	f	class:Faculty
+PeriodsPerDay	Solution/ITC2007-validator.cc	/^  unsigned PeriodsPerDay() const { return periods_per_day; }$/;"	f	class:Faculty
+PrintCosts	Solution/ITC2007-validator.cc	/^void Validator::PrintCosts(std::ostream& os) const$/;"	f	class:Validator
+PrintTotalCost	Solution/ITC2007-validator.cc	/^void Validator::PrintTotalCost(std::ostream& os)  const$/;"	f	class:Validator
+PrintViolations	Solution/ITC2007-validator.cc	/^void Validator::PrintViolations(std::ostream& os) const$/;"	f	class:Validator
+PrintViolationsOnAvailability	Solution/ITC2007-validator.cc	/^void Validator::PrintViolationsOnAvailability(std::ostream& os) const$/;"	f	class:Validator
+PrintViolationsOnConflicts	Solution/ITC2007-validator.cc	/^void Validator::PrintViolationsOnConflicts(std::ostream& os) const$/;"	f	class:Validator
+PrintViolationsOnCurriculumCompactness	Solution/ITC2007-validator.cc	/^void Validator::PrintViolationsOnCurriculumCompactness(std::ostream& os) const$/;"	f	class:Validator
+PrintViolationsOnDoubleLectures	Solution/ITC2007-validator.cc	/^void Validator::PrintViolationsOnDoubleLectures(std::ostream& os) const$/;"	f	class:Validator
+PrintViolationsOnIsolatedLectures	Solution/ITC2007-validator.cc	/^void Validator::PrintViolationsOnIsolatedLectures(std::ostream& os) const$/;"	f	class:Validator
+PrintViolationsOnLectures	Solution/ITC2007-validator.cc	/^void Validator::PrintViolationsOnLectures(std::ostream& os) const$/;"	f	class:Validator
+PrintViolationsOnMinWorkingDays	Solution/ITC2007-validator.cc	/^void Validator::PrintViolationsOnMinWorkingDays(std::ostream& os) const$/;"	f	class:Validator
+PrintViolationsOnRoomCapacity	Solution/ITC2007-validator.cc	/^void Validator::PrintViolationsOnRoomCapacity(std::ostream& os) const$/;"	f	class:Validator
+PrintViolationsOnRoomConstraints	Solution/ITC2007-validator.cc	/^void Validator::PrintViolationsOnRoomConstraints(std::ostream& os) const$/;"	f	class:Validator
+PrintViolationsOnRoomOccupation	Solution/ITC2007-validator.cc	/^void Validator::PrintViolationsOnRoomOccupation(std::ostream& os) const$/;"	f	class:Validator
+PrintViolationsOnRoomStability	Solution/ITC2007-validator.cc	/^void Validator::PrintViolationsOnRoomStability(std::ostream& os) const$/;"	f	class:Validator
+PrintViolationsOnStudentLoad	Solution/ITC2007-validator.cc	/^void Validator::PrintViolationsOnStudentLoad(std::ostream& os) const$/;"	f	class:Validator
+PrintViolationsOnTravelDistance	Solution/ITC2007-validator.cc	/^void Validator::PrintViolationsOnTravelDistance(std::ostream& os) const$/;"	f	class:Validator
+RANDSEED	ml-uctp-py/create_timetable.py	/^RANDSEED = 64$/;"	v
+REPORT_INCR	ml-uctp-py/config.py	/^REPORT_INCR = {}$/;"	v
+REPORT_NORM	ml-uctp-py/config.py	/^REPORT_NORM = {}$/;"	v
+ROOMPERIODLIST	ml-uctp-py/config.py	/^ROOMPERIODLIST = []$/;"	v
+ROOM_CONSTRAINT_COST	Solution/ITC2007-validator.cc	/^  unsigned ROOM_CONSTRAINT_COST;$/;"	m	class:Validator	file:
+ROOM_STABILITY_COST	Solution/ITC2007-validator.cc	/^  unsigned ROOM_STABILITY_COST;$/;"	m	class:Validator	file:
+Room	Solution/ITC2007-validator.cc	/^class Room$/;"	c	file:
+Room	ml-uctp-py/ectt_classes.py	/^class Room:$/;"	c
+RoomConstr	ml-uctp-py/ectt_classes.py	/^class RoomConstr:$/;"	c
+RoomConstraint	Solution/ITC2007-validator.cc	/^  bool RoomConstraint(unsigned c, unsigned r) const { return room_constraints[c][r]; } $/;"	f	class:Faculty
+RoomIndex	Solution/ITC2007-validator.cc	/^int Faculty::RoomIndex(const std::string& name) const$/;"	f	class:Faculty
+RoomLectures	Solution/ITC2007-validator.cc	/^  unsigned RoomLectures(unsigned i, unsigned j) const { return room_lectures[i][j]; }$/;"	f	class:Timetable
+RoomPeriod	ml-uctp-py/ectt_classes.py	/^class RoomPeriod:$/;"	c
+RoomVector	Solution/ITC2007-validator.cc	/^  const Room& RoomVector(int i) const { return room_vect[i]; }$/;"	f	class:Faculty
+Rooms	Solution/ITC2007-validator.cc	/^  unsigned Rooms() const { return rooms; }$/;"	f	class:Faculty
+STUDENT_LOAD_COST	Solution/ITC2007-validator.cc	/^  unsigned STUDENT_LOAD_COST;$/;"	m	class:Validator	file:
+SetName	Solution/ITC2007-validator.cc	/^  void SetName(const std::string& n) { name = n; }$/;"	f	class:Curriculum
+Size	Solution/ITC2007-validator.cc	/^  unsigned Size() const { return members.size(); }$/;"	f	class:Curriculum
+Students	Solution/ITC2007-validator.cc	/^  unsigned Students() const { return students; }$/;"	f	class:Course
+TRAVEL_COST	Solution/ITC2007-validator.cc	/^  unsigned TRAVEL_COST;$/;"	m	class:Validator	file:
+Teacher	Solution/ITC2007-validator.cc	/^  const std::string& Teacher() const { return teacher; }$/;"	f	class:Course
+Timetable	Solution/ITC2007-validator.cc	/^Timetable::Timetable(const Faculty &f, std::string file_name)$/;"	f	class:Timetable
+Timetable	Solution/ITC2007-validator.cc	/^class Timetable$/;"	c	file:
+UnavailConstr	ml-uctp-py/ectt_classes.py	/^class UnavailConstr:$/;"	c
+UpdateRedundantData	Solution/ITC2007-validator.cc	/^void Timetable::UpdateRedundantData() $/;"	f	class:Timetable
+UsedRooms	Solution/ITC2007-validator.cc	/^  unsigned UsedRooms(unsigned i, unsigned j) const { return used_rooms[i][j]; }$/;"	f	class:Timetable
+UsedRoomsNo	Solution/ITC2007-validator.cc	/^  unsigned UsedRoomsNo(unsigned i) const { return used_rooms[i].size(); }$/;"	f	class:Timetable
+Validator	Solution/ITC2007-validator.cc	/^Validator::Validator(const Faculty & i, const Timetable & o, std::string f)$/;"	f	class:Validator
+Validator	Solution/ITC2007-validator.cc	/^class Validator$/;"	c	file:
+Warnings	Solution/ITC2007-validator.cc	/^  unsigned Warnings() const { return warnings; }$/;"	f	class:Timetable
+WorkingDays	Solution/ITC2007-validator.cc	/^  unsigned WorkingDays(unsigned i) const { return working_days[i]; }$/;"	f	class:Timetable
+__eq__	ml-uctp-py/ectt_classes.py	/^    def __eq__(self, other):$/;"	m	class:RoomPeriod	file:
+__init__	ml-uctp-py/ectt_classes.py	/^    def __init__(self, coursecode, day, period_in_day, num_period_per_day):$/;"	m	class:UnavailConstr
+__init__	ml-uctp-py/ectt_classes.py	/^    def __init__(self, coursecode, lecturer, lect_per_week,$/;"	m	class:Course
+__init__	ml-uctp-py/ectt_classes.py	/^    def __init__(self, coursecode, roomid):$/;"	m	class:RoomConstr
+__init__	ml-uctp-py/ectt_classes.py	/^    def __init__(self, coursecode, roomid, day, period_in_day, period):$/;"	m	class:Event
+__init__	ml-uctp-py/ectt_classes.py	/^    def __init__(self, currid, num_courses, list_courses):$/;"	m	class:Curricula
+__init__	ml-uctp-py/ectt_classes.py	/^    def __init__(self, name, num_courses, num_rooms, num_days,$/;"	m	class:Header
+__init__	ml-uctp-py/ectt_classes.py	/^    def __init__(self, roomid, period):$/;"	m	class:RoomPeriod
+__init__	ml-uctp-py/ectt_classes.py	/^    def __init__(self, roomid, size, site):$/;"	m	class:Room
+__str__	ml-uctp-py/ectt_classes.py	/^    def __str__(self):$/;"	m	class:Course	file:
+__str__	ml-uctp-py/ectt_classes.py	/^    def __str__(self):$/;"	m	class:Curricula	file:
+__str__	ml-uctp-py/ectt_classes.py	/^    def __str__(self):$/;"	m	class:Event	file:
+__str__	ml-uctp-py/ectt_classes.py	/^    def __str__(self):$/;"	m	class:Header	file:
+__str__	ml-uctp-py/ectt_classes.py	/^    def __str__(self):$/;"	m	class:Room	file:
+__str__	ml-uctp-py/ectt_classes.py	/^    def __str__(self):$/;"	m	class:RoomConstr	file:
+__str__	ml-uctp-py/ectt_classes.py	/^    def __str__(self):$/;"	m	class:RoomPeriod	file:
+__str__	ml-uctp-py/ectt_classes.py	/^    def __str__(self):$/;"	m	class:UnavailConstr	file:
+availability	Solution/ITC2007-validator.cc	/^  std::vector<std::vector<bool> > availability;$/;"	m	class:Faculty	file:
+capacity	Solution/ITC2007-validator.cc	/^  unsigned capacity, location;$/;"	m	class:Room	file:
+comparenumbers	ml-uctp-py/incremental_learn.py	/^def comparenumbers(first, second):$/;"	f
+conflict	Solution/ITC2007-validator.cc	/^  std::vector<std::vector<bool> > conflict;$/;"	m	class:Faculty	file:
+constructschedule	ml-uctp-py/readectt.py	/^def constructschedule(individual, rmplist, lectlist, data):$/;"	f
+convertpop	ml-uctp-py/create_timetable.py	/^def convertpop(population):$/;"	f
+course_daily_lectures	Solution/ITC2007-validator.cc	/^  std::vector<std::vector<unsigned> > course_daily_lectures; \/\/ number of lectures per course per day$/;"	m	class:Timetable	file:
+course_vect	Solution/ITC2007-validator.cc	/^  std::vector<Course> course_vect;$/;"	m	class:Faculty	file:
+courses	Solution/ITC2007-validator.cc	/^  unsigned rooms, courses, periods, periods_per_day, curricula, min_lectures, max_lectures;;$/;"	m	class:Faculty	file:
+createclassificationmodel	ml-uctp-py/incremental_learn.py	/^def createclassificationmodel(batch):$/;"	f
+createconstructsequece	ml-uctp-py/readectt.py	/^def createconstructsequece(lectlist):$/;"	f
+createcourselist	ml-uctp-py/readectt.py	/^def createcourselist(ctext):$/;"	f
+createcurriculalist	ml-uctp-py/readectt.py	/^def createcurriculalist(currtext):$/;"	f
+createheader	ml-uctp-py/readectt.py	/^def createheader(htext):$/;"	f
+createlecturelist	ml-uctp-py/readectt.py	/^def createlecturelist(courses):$/;"	f
+createmodel	ml-uctp-py/incremental_learn.py	/^def createmodel(batch):$/;"	f
+createrandomsolution	ml-uctp-py/readectt.py	/^def createrandomsolution(numlectures, numroomperiods):$/;"	f
+createregressionmodel	ml-uctp-py/incremental_learn.py	/^def createregressionmodel(batch):$/;"	f
+createroomconstrlist	ml-uctp-py/readectt.py	/^def createroomconstrlist(roomconstrtext):$/;"	f
+createroomlist	ml-uctp-py/readectt.py	/^def createroomlist(rtext):$/;"	f
+createroomperiodlist	ml-uctp-py/readectt.py	/^def createroomperiodlist(roomlist, numperiods):$/;"	f
+createschedule	ml-uctp-py/readectt.py	/^def createschedule(randsolution, rmplist, lectlist, header):$/;"	f
+createunavailconstrlist	ml-uctp-py/readectt.py	/^def createunavailconstrlist(unavailtext, num_slots_in_day):$/;"	f
+curricula	Solution/ITC2007-validator.cc	/^  unsigned rooms, courses, periods, periods_per_day, curricula, min_lectures, max_lectures;;$/;"	m	class:Faculty	file:
+curricula_vect	Solution/ITC2007-validator.cc	/^  std::vector<Curriculum> curricula_vect;$/;"	m	class:Faculty	file:
+curriculum_daily_lectures	Solution/ITC2007-validator.cc	/^  std::vector<std::vector<unsigned> > curriculum_daily_lectures;\/\/ number of lectures per curriculum per day$/;"	m	class:Timetable	file:
+curriculum_period_lectures	Solution/ITC2007-validator.cc	/^  std::vector<std::vector<unsigned> > curriculum_period_lectures; \/\/ number of lectures per curriculum in the same period (should be 0 or 1)$/;"	m	class:Timetable	file:
+double_lectures	Solution/ITC2007-validator.cc	/^  bool double_lectures;$/;"	m	class:Course	file:
+evolve	ml-uctp-py/create_timetable.py	/^def evolve(toolbox, checkpoint, evolve_type=True):$/;"	f
+filewrite	ml-uctp-py/ectt_classes.py	/^    def filewrite(self):$/;"	m	class:Event
+find_index	ml-uctp-py/genetic_operators.py	/^def find_index(element, list_element):$/;"	f
+formulation	Solution/ITC2007-validator.cc	/^  std::string formulation;$/;"	m	class:Validator	file:
+getcurlectroom	ml-uctp-py/genetic_operators.py	/^def getcurlectroom(lectureindex, individual):$/;"	f
+getday	ml-uctp-py/ectt_classes.py	/^    def getday(self, period):$/;"	m	class:Header
+geteventssharingperiod	ml-uctp-py/genetic_operators.py	/^def geteventssharingperiod(individual, rpindex):$/;"	f
+getgroupforsofteval	ml-uctp-py/readectt.py	/^def getgroupforsofteval(timetable):$/;"	f
+getgroupsforevaluation	ml-uctp-py/readectt.py	/^def getgroupsforevaluation(eventlist):$/;"	f
+gethardconstraintsviolations	ml-uctp-py/readectt.py	/^def gethardconstraintsviolations(schedule, inputdata):$/;"	f
+getheaders	ml-uctp-py/incremental_learn.py	/^def getheaders(batch):$/;"	f
+getisolatedlectureviolations	ml-uctp-py/readectt.py	/^def getisolatedlectureviolations(csc_curr, period_csc, header):$/;"	f
+getmaximumperiod	ml-uctp-py/ectt_classes.py	/^    def getmaximumperiod(self):$/;"	m	class:Header
+getmwdviolation	ml-uctp-py/readectt.py	/^def getmwdviolation(course_days, csc_mwd):$/;"	f
+getnumperiods	ml-uctp-py/ectt_classes.py	/^    def getnumperiods(self):$/;"	m	class:Header
+getperiod	ml-uctp-py/ectt_classes.py	/^    def getperiod(self, period_in_day, day):$/;"	m	class:Header
+getperiodcurricula	ml-uctp-py/readectt.py	/^def getperiodcurricula(csc_curr, period_csc):$/;"	f
+getperiodinday	ml-uctp-py/ectt_classes.py	/^    def getperiodinday(self, period):$/;"	m	class:Header
+getroombalanceviolations	ml-uctp-py/readectt.py	/^def getroombalanceviolations(csc_room_list):$/;"	f
+getroomclashviolations	ml-uctp-py/readectt.py	/^def getroomclashviolations(room_per_list):$/;"	f
+getroomsizeviolations	ml-uctp-py/readectt.py	/^def getroomsizeviolations(c_room, r_size, c_size):$/;"	f
+getrpindex	ml-uctp-py/readectt.py	/^def getrpindex(event, avail_rp, cur_period, lecturer_period, inputdata, rplst):$/;"	f
+getsoftconstraintviolations	ml-uctp-py/readectt.py	/^def getsoftconstraintviolations(timetable, inputdata):$/;"	f
+getstudlectclashviolations	ml-uctp-py/readectt.py	/^def getstudlectclashviolations($/;"	f
+getunassignedviolations	ml-uctp-py/readectt.py	/^def getunassignedviolations(lectures_in_sch, course_lect_per_week):$/;"	f
+getunavailperiodviolations	ml-uctp-py/readectt.py	/^def getunavailperiodviolations(all_cscper_list, unavail_cscper_list):$/;"	f
+grouptuplebyitem	ml-uctp-py/readectt.py	/^def grouptuplebyitem(tuple_list):$/;"	f
+hardconstevolve	ml-uctp-py/create_timetable.py	/^def hardconstevolve(checkpoint=None):$/;"	f
+hardconstmove	ml-uctp-py/genetic_operators.py	/^def hardconstmove(lecture_index, new_lect_index, individual):$/;"	f
+hardevaluation	ml-uctp-py/genetic_operators.py	/^def hardevaluation(individual):$/;"	f
+hardmutate	ml-uctp-py/genetic_operators.py	/^def hardmutate(individual):$/;"	f
+hardtwopointcrossover	ml-uctp-py/genetic_operators.py	/^def hardtwopointcrossover(ind1, ind2):$/;"	f
+in	Solution/ITC2007-validator.cc	/^  const Faculty & in;  $/;"	m	class:Timetable	file:
+in	Solution/ITC2007-validator.cc	/^  const Faculty& in;  $/;"	m	class:Validator	file:
+initindividual	ml-uctp-py/create_timetable.py	/^def initindividual(icls, content):$/;"	f
+initpopulation	ml-uctp-py/create_timetable.py	/^def initpopulation(pcls, ind_init, ind_list):$/;"	f
+kempemove	ml-uctp-py/genetic_operators.py	/^def kempemove(lecture_index, new_rp, ind):$/;"	f
+lectures	Solution/ITC2007-validator.cc	/^  unsigned lectures, students, min_working_days;$/;"	m	class:Course	file:
+location	Solution/ITC2007-validator.cc	/^  unsigned capacity, location;$/;"	m	class:Room	file:
+main	Solution/ITC2007-validator.cc	/^int main(int argc, char* argv[])$/;"	f
+main	ml-uctp-py/create_timetable.py	/^def main():$/;"	f
+main	ml-uctp-py/incremental_learn.py	/^def main():$/;"	f
+max_lectures	Solution/ITC2007-validator.cc	/^  unsigned rooms, courses, periods, periods_per_day, curricula, min_lectures, max_lectures;;$/;"	m	class:Faculty	file:
+members	Solution/ITC2007-validator.cc	/^  std::vector<unsigned> members;$/;"	m	class:Curriculum	file:
+min_lectures	Solution/ITC2007-validator.cc	/^  unsigned rooms, courses, periods, periods_per_day, curricula, min_lectures, max_lectures;;$/;"	m	class:Faculty	file:
+min_working_days	Solution/ITC2007-validator.cc	/^  unsigned lectures, students, min_working_days;$/;"	m	class:Course	file:
+movesinglekempe	ml-uctp-py/genetic_operators.py	/^def movesinglekempe(individual, lect_index, avail_rooms, period):$/;"	f
+name	Solution/ITC2007-validator.cc	/^  std::string name, teacher;$/;"	m	class:Course	file:
+name	Solution/ITC2007-validator.cc	/^  std::string name; $/;"	m	class:Faculty	file:
+name	Solution/ITC2007-validator.cc	/^  std::string name;$/;"	m	class:Curriculum	file:
+name	Solution/ITC2007-validator.cc	/^  std::string name;$/;"	m	class:Room	file:
+operator ()	Solution/ITC2007-validator.cc	/^  unsigned operator()(unsigned i, unsigned j) const { return tt[i][j]; }$/;"	f	class:Timetable
+operator ()	Solution/ITC2007-validator.cc	/^  unsigned& operator()(unsigned i, unsigned j) { return tt[i][j]; }$/;"	f	class:Timetable
+operator >>	Solution/ITC2007-validator.cc	/^std::istream& operator>>(std::istream& is, Course& c)$/;"	f
+operator >>	Solution/ITC2007-validator.cc	/^std::istream& operator>>(std::istream& is, Room& r)$/;"	f
+operator []	Solution/ITC2007-validator.cc	/^  unsigned operator[](unsigned i) const { return members[i]; }$/;"	f	class:Curriculum
+out	Solution/ITC2007-validator.cc	/^  const Timetable& out; $/;"	m	class:Validator	file:
+parse_args	ml-uctp-py/create_timetable.py	/^def parse_args():$/;"	f
+parse_args	ml-uctp-py/incremental_learn.py	/^def parse_args():$/;"	f
+periods	Solution/ITC2007-validator.cc	/^  unsigned rooms, courses, periods, periods_per_day, curricula, min_lectures, max_lectures;;$/;"	m	class:Faculty	file:
+periods_per_day	Solution/ITC2007-validator.cc	/^  unsigned rooms, courses, periods, periods_per_day, curricula, min_lectures, max_lectures;;$/;"	m	class:Faculty	file:
+readecttfile	ml-uctp-py/readectt.py	/^def readecttfile(fullpath):$/;"	f
+room_constraints	Solution/ITC2007-validator.cc	/^  std::vector<std::vector<bool> > room_constraints;$/;"	m	class:Faculty	file:
+room_lectures	Solution/ITC2007-validator.cc	/^  std::vector<std::vector<unsigned> > room_lectures; \/\/ number of lectures per room in the same period (should be 0 or 1)$/;"	m	class:Timetable	file:
+room_vect	Solution/ITC2007-validator.cc	/^  std::vector<Room> room_vect;$/;"	m	class:Faculty	file:
+rooms	Solution/ITC2007-validator.cc	/^  unsigned rooms, courses, periods, periods_per_day, curricula, min_lectures, max_lectures;;$/;"	m	class:Faculty	file:
+scheduletosolution	ml-uctp-py/readectt.py	/^def scheduletosolution(timetable, rplist, lecturelist):$/;"	f
+simplemovelecture	ml-uctp-py/genetic_operators.py	/^def simplemovelecture(lecture_index, new_roomperiod, individual):$/;"	f
+softconstenvolve	ml-uctp-py/create_timetable.py	/^def softconstenvolve(pop_hard, checkpoint=None):$/;"	f
+softcrossover	ml-uctp-py/genetic_operators.py	/^def softcrossover(ind1, ind2):$/;"	f
+softevaluation	ml-uctp-py/genetic_operators.py	/^def softevaluation(individual):$/;"	f
+softmutate	ml-uctp-py/genetic_operators.py	/^def softmutate(individual):$/;"	f
+softtwopointcrossover	ml-uctp-py/genetic_operators.py	/^def softtwopointcrossover(ind1, ind2):$/;"	f
+softuniformcrossover	ml-uctp-py/genetic_operators.py	/^def softuniformcrossover(ind1, ind2):$/;"	f
+students	Solution/ITC2007-validator.cc	/^  unsigned lectures, students, min_working_days;$/;"	m	class:Course	file:
+teacher	Solution/ITC2007-validator.cc	/^  std::string name, teacher;$/;"	m	class:Course	file:
+tt	Solution/ITC2007-validator.cc	/^  std::vector<std::vector<unsigned> > tt;  \/\/ (courses X periods) timetable matrix$/;"	m	class:Timetable	file:
+used_rooms	Solution/ITC2007-validator.cc	/^  std::vector<std::vector<unsigned> > used_rooms; \/\/ rooms used for each lecture on the course$/;"	m	class:Timetable	file:
+warnings	Solution/ITC2007-validator.cc	/^  unsigned warnings;$/;"	m	class:Timetable	file:
+working_days	Solution/ITC2007-validator.cc	/^  std::vector<unsigned> working_days; \/\/ number of days of lecture per course$/;"	m	class:Timetable	file:
+writescheduletofile	ml-uctp-py/readectt.py	/^def writescheduletofile(eventlist, filename):$/;"	f

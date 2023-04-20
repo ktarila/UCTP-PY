@@ -1,0 +1,6 @@
+# compile evaluator
+g++ ITC2007-validator.cc -o validator
+
+
+# run evalator
+./validator UD2 '../InputData/ITC-2007_ectt/comp01.ectt' 'comp01.sol'
